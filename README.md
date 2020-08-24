@@ -1,4 +1,4 @@
-# Úkol: Recepty
+# Cvičení: Recepty
 
 ## Zadání
 
@@ -14,15 +14,15 @@ Vyber si jednu ze čtyř variant a doplň styly, případně i HTML, podle přil
 
 #### Mobil
 
-![](Masova-varianta/nahled-mobil.jpg)
+![masová varianta - mobil](Masova-varianta/nahled-mobil.jpg)
 
 #### Tablet
 
-![](Masova-varianta/nahled-tablet.jpg)
+![masová varianta - tablet](Masova-varianta/nahled-tablet.jpg)
 
 #### PC
 
-![](Masova-varianta/nahled-pc.jpg)
+![masová varianta - pc](Masova-varianta/nahled-pc.jpg)
 
 </details>
 
@@ -36,14 +36,14 @@ Vyber si jednu ze čtyř variant a doplň styly, případně i HTML, podle přil
 
 #### Mobil
 
-![](Veganska-varianta/nahled-mobil.jpg)
+![veganská varianta - mobil](Veganska-varianta/nahled-mobil.jpg)
 
 #### Tablet
 
-![](Veganska-varianta/nahled-tablet.jpg)
+![veganská varianta - tablet](Veganska-varianta/nahled-tablet.jpg)
 
 #### PC
 
-![](Veganska-varianta/nahled-pc.jpg)
+![veganská varianta - pc](Veganska-varianta/nahled-pc.jpg)
 
 </details>
