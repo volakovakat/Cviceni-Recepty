@@ -24,6 +24,10 @@ body {
     color: white;
 }
 
+/* ------------------------------- */
+/* ----- DOLE BUDE TVOJE CSS ----- */
+/* ------------------------------- */
+
 .paticka {
     text-align: center;
     font-size: 14px;
@@ -58,6 +62,7 @@ body {
 .recept-nazev {
     font-family: 'Raleway', sans-serif;
     color: white;
+    text-shadow: 2px 2px 3.5px #242424;
     position: absolute;
     left: 10px;
     bottom: 0px;
@@ -71,7 +76,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 2.5px;
+    margin-top: 1.5px;
 }
 
 .recept2 {
@@ -98,11 +103,6 @@ body {
     padding: 10px;
 }
 
-
-/* ------------------------------- */
-/* ----- DOLE BUDE TVOJE CSS ----- */
-/* ------------------------------- */
-
 @media (min-width: 480px) {
     .hlavni-recept {
         min-height: 250px;
@@ -122,9 +122,42 @@ body {
     .recept {
         width: 50%;
         min-height: 150px;
-    }  
+    } 
+    
+    .recept-nazev {
+        font-size: 22px;
+    }
+
+    .recept-nazev-hlavni {
+        font-size: 36px;
+    }
 }
 
 
 @media (min-width: 860px) {
+    .doporucujeme {
+        display: flex;
+    }
+
+    .hlavni-recept {
+        min-height: 400px;
+    }
+
+    .recept-meta {
+        padding: 20px;
+    }
+
+    .recept {
+        width: 50%;
+        min-height: 200px;
+        margin: 0;
+    }  
+
+    .recept-nazev {
+        font-size: 28px;
+    }
+
+    .recept-nazev-hlavni {
+        font-size: 48px;
+    }
 }
