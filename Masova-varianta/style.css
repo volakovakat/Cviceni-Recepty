@@ -21,6 +21,7 @@ notebook/pc:
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    color: white;
 }
 
 .paticka {
@@ -33,8 +34,79 @@ body {
     color: silver;
 }
 
+.recept-nazev {
+    font-size: 18px;
+    
+}
+
+.recept-nazev-hlavni {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+}
+
+.hlavni-recept {
+    background-image: url('images/burger.jpg');
+    width: 100%;
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.recept-nazev-hlavni,
+.recept-nazev {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+}
+
+.recept {
+    position: relative;
+    width: 100%;
+    min-height: 90px;
+    border-bottom: 2px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2.5px;
+}
+
+.recept2 {
+    background-image: url('images/sushi.jpg');
+}
+
+.recept3 {
+    background-image: url('images/kure.jpg');
+}
+
+.recept4 {
+    background-image: url('images/rajcata.jpg');
+}
+
+.recept5 {
+    background-image: url('images/grilovani.jpg');
+}
+
+
+.recept-meta {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
 
 /* ------------------------------- */
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
 
+@media (min-width: 480px) {
+    
+}
+
+
+@media (min-width: 860px) {
+}
