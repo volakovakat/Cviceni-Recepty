@@ -104,7 +104,25 @@ body {
 /* ------------------------------- */
 
 @media (min-width: 480px) {
-    
+    .hlavni-recept {
+        min-height: 250px;
+    }
+
+    .recept-meta {
+        padding: 20px;
+    }
+
+    .recepty {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .recept {
+        width: 50%;
+        min-height: 150px;
+    }  
 }
 
 
